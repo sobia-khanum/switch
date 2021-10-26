@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	printf("Pick your order:\n1. burger,rs127\n2. Pasta,rs179\n3. sandwich,rs149\n4. pizza,rs239\n5. french fries,rs99");
+	int choices=0;
+	scanf("%d", &choices);
+	switch(choices)
+	{
+	case 1:
+	    printf("you picked bruger. ");
+	    break;
+    case 2:
+	    printf("you picked pasta. ");
+	    break;
+	case 3:
+	    printf("you picked sandwich. ");
+	    break;
+	case 4:
+	    printf("you picked pizza.");
+	    break;
+	case 5:
+     	printf("you picked french fries.");
+	    break;
+	
+    }
+return 0;
+}
